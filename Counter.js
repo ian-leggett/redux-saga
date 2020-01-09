@@ -10,7 +10,7 @@ const Counter = ({
 }) => {
   const { counter, posts } = value
   const postsListMarkup = posts
-    ? posts.map(post => <div key={post.id}>{post.title}</div>)
+? posts.map(post => <div key={post.id}>{post.id}. {post.title}</div>)
     : null
   return (
     <div>
